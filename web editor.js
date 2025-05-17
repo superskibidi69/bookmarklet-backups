@@ -1,0 +1,1 @@
+javascript:(function()%20%7B%20%20if%20(document.body.contentEditable%20===%20'false'%20%7C%7C%20document.body.contentEditable%20===%20'inherit')%20%7B%20%20%20%20document.body.contentEditable%20=%20'true';%20document.designMode='on';%20%20%7D%20else%20%7B%20%20%20%20document.body.contentEditable%20=%20'false';%20document.designMode='off';%20%20%7D%7D)()
