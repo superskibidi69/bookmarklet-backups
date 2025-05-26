@@ -1,0 +1,1 @@
+javascript:var%20firebug=document.createElement('script');firebug.setAttribute('src','https://luphoria.com/fbl/fbl/firebug-lite-debug.js');document.body.appendChild(firebug);(function()%7Bif(window.firebug.version)%7Bfirebug.init();%7Delse%7BsetTimeout(arguments.callee);%7D%7D)();void(firebug);
