@@ -1,0 +1,1 @@
+javascript:(function()%7Bdocument.body.style.transition=%22transform%200.1s%22;document.addEventListener(%22mousemove%22,function(e)%7Bvar%20x=(e.clientX/window.innerWidth-0.5)*20;var%20y=(e.clientY/window.innerHeight-0.5)*-20;document.body.style.transform=%22perspective(1000px)%20rotateX(%22+y+%22deg)%20rotateY(%22+x+%22deg)%22%7D);%7D)();
